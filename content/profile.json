@@ -1,0 +1,24 @@
+{
+  "name": "Your Name",
+  "role": "Mobile Developer (Android · iOS · Flutter)",
+  "location": "City, Country",
+  "bio": "Short paragraph about you: what you build, what you care about, and what you are looking for.",
+  "resume": "/resume/resume.pdf",
+  "email": "you@example.com",
+  "socials": [
+    { "label": "GitHub", "url": "https://github.com/" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/" }
+  ],
+  "skills": [
+    { "group": "Mobile", "items": ["Kotlin", "Swift", "Flutter", "Jetpack Compose", "SwiftUI"] },
+    { "group": "Backend & Tools", "items": ["Firebase", "REST APIs", "Git", "CI/CD"] }
+  ],
+  "experience": [
+    {
+      "role": "Mobile Developer",
+      "company": "Company Name",
+      "period": "2022 — Present",
+      "summary": "What you built and the impact it had."
+    }
+  ]
+}

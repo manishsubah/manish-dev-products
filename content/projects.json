@@ -1,0 +1,46 @@
+[
+  {
+    "slug": "sample-android-app",
+    "name": "Sample Android App",
+    "tagline": "Replace this with your real app — edit content/projects.json",
+    "description": "A longer description of what the app does, who it is for, and what problem it solves.",
+    "platforms": ["android"],
+    "status": "live",
+    "featured": true,
+    "techStack": ["Kotlin", "Jetpack Compose", "Room"],
+    "features": ["Offline first", "Material 3 design", "Dark mode"],
+    "links": {
+      "playStore": "https://play.google.com/store",
+      "apk": "https://github.com/",
+      "source": "https://github.com/"
+    },
+    "releasedOn": "2025-08-01"
+  },
+  {
+    "slug": "sample-cross-platform-app",
+    "name": "Sample Cross-platform App",
+    "tagline": "Available on Android, iOS and the web",
+    "description": "Example of a project with every kind of link filled in.",
+    "platforms": ["android", "ios", "web"],
+    "status": "beta",
+    "featured": true,
+    "techStack": ["Flutter", "Firebase"],
+    "features": ["Realtime sync", "Push notifications"],
+    "links": {
+      "playStore": "https://play.google.com/store",
+      "appStore": "https://www.apple.com/app-store/",
+      "web": "https://example.com"
+    },
+    "releasedOn": "2025-11-15"
+  },
+  {
+    "slug": "sample-in-progress",
+    "name": "Sample Work-in-Progress",
+    "tagline": "Projects without links still show up",
+    "description": "Use status \"in-development\" for things you are still building.",
+    "platforms": ["ios"],
+    "status": "in-development",
+    "techStack": ["Swift", "SwiftUI"],
+    "links": {}
+  }
+]
