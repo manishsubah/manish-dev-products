@@ -40,7 +40,6 @@ my_product/
 │
 ├── public/                     ◀ ASSETS (like res/drawable or assets/ in Flutter)
 │   ├── images/projects/        app icons & screenshots
-│   ├── apks/                   (optional) small APK files
 │   └── resume/                 resume.pdf
 │
 ├── src/                        ◀ ALL CODE

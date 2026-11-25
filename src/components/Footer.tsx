@@ -7,7 +7,7 @@ export default function Footer({ profile }: { profile: Profile }) {
         <p>© {new Date().getFullYear()} {profile.name}</p>
         <div className="flex gap-4">
           {profile.socials.map((s) => (
-            <a key={s.url} href={s.url} target="_blank" rel="noreferrer" className="hover:text-foreground">
+            <a key={s.url} href={s.url} target="_blank" rel="noopener noreferrer" className="hover:text-foreground">
               {s.label}
             </a>
           ))}

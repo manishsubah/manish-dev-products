@@ -71,7 +71,7 @@ Do **not** commit APKs into this repo (they are large and bloat git history). In
 1. Upload the APK to **GitHub Releases** of the app's own repo (or this repo), and
 2. Put the release download URL into `links.apk`.
 
-Small APKs (< ~20 MB) *can* go in `public/apks/` as a fallback, but Releases is preferred.
+APK files are git-ignored on purpose. Always use Releases (see CLAUDE.md security rules).
 
 ## 5. Folder structure
 
@@ -84,7 +84,6 @@ my_product/
 │   └── PLAN.md              # this file
 ├── public/                  # static files served as-is
 │   ├── images/projects/     # icons + screenshots, one folder per project slug
-│   ├── apks/                # (optional) small APK files
 │   └── resume/              # resume.pdf
 ├── src/
 │   ├── app/                 # pages (Next.js "App Router": folder = URL)

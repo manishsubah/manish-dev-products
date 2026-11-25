@@ -1,9 +1,48 @@
+# ── Dependencies & build output (always regenerated) ──
 node_modules/
 .next/
 out/
+build/
+dist/
 next-env.d.ts
 *.tsbuildinfo
-.DS_Store
-.env*
+.vercel/
+
+# ── Secrets & environment (NEVER commit) ──
+.env
+.env.*
 !.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.mobileprovision
+*.p8
+google-services.json
+GoogleService-Info.plist
+service-account*.json
+credentials*.json
+secrets*.json
+*.secret
+
+# ── Large binaries: host on GitHub Releases instead ──
+*.apk
+*.aab
+*.ipa
+*.zip
+
+# ── Editor / OS / tool-local files ──
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+.claude/
+.impeccable/
+CLAUDE.local.md
+
+# ── Logs ──
+*.log
 npm-debug.log*

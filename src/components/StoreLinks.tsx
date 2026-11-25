@@ -20,7 +20,7 @@ export default function StoreLinks({ links }: { links: ProjectLinks }) {
           key={l.key}
           href={links[l.key]}
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
           className="rounded-lg border border-border bg-card px-4 py-2 text-sm font-medium hover:border-accent"
         >
           {l.label}
